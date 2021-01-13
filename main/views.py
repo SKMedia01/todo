@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def homepage(request):
+    return HttpResponse("Hello world!")
+
+def secong(request):
+    return HttpResponse("Test 2 page")
